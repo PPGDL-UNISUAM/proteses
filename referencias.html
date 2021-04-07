@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>referencias.utf8</title>
+
+<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-sm-12 col-md-4 col-lg-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-sm-12 col-md-8 col-lg-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Reabilitação de Pessoas com Amputação</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Apresentação</a>
+</li>
+<li>
+  <a href="introducao.html">
+    <span class="fas fa-home"></span>
+     
+    Introdução
+  </a>
+</li>
+<li>
+  <a href="reabilitacao.html">
+    <span class="fas fa-wheelchair"></span>
+     
+    Reabilitação
+  </a>
+</li>
+<li>
+  <a href="busca.html">
+    <span class="fas fa-search"></span>
+     
+    Busca
+  </a>
+</li>
+<li>
+  <a href="preprotetizacao.html">
+    <span class="fas fa-universal-access"></span>
+     
+    Pré-protetização
+  </a>
+</li>
+<li>
+  <a href="posprotetizacao.html">
+    <span class="fas fa-universal-access"></span>
+     
+    Pós-protetização
+  </a>
+</li>
+<li>
+  <a href="referencias.html">
+    <span class="fas fa-book"></span>
+     
+    Referências
+  </a>
+</li>
+<li>
+  <a href="download.html">
+    <span class="fas fa-download"></span>
+     
+    Downloads
+  </a>
+</li>
+<li>
+  <a href="about.html">
+    <span class="fas fa-info"></span>
+     
+    Sobre
+  </a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+
+</div>
+
+
+<p><br> <br> <br></p>
+<div id="referências" class="section level1">
+<h1><strong>Referências</strong></h1>
+<p><br></p>
+<p>Baraúna, M., Duarte, F., Sanchez, H., Canto, R., Malusá, S., Campelo-Silva, C., &amp; Ventura-Silva, R. (2006). Avaliação do equilíbrio estático em indivíduos amputados de membros inferiores através da biofotogrametria computadorizada. Revista Brasileira de Fisioterapia, 10(1), 83–90. <a href="https://doi.org/10.1590/s1413-35552006000100011" class="uri">https://doi.org/10.1590/s1413-35552006000100011</a></p>
+<p>Barbin, J., Seetha, V., Casillas, J. M., Paysant, J., &amp; Pérennou, D. (2016, September). The effects of mirror therapy on pain and motor control of phantom limb in amputees: A systematic review. Annals of Physical and Rehabilitation Medicine. Elsevier Masson SAS. <a href="https://doi.org/10.1016/j.rehab.2016.04.001" class="uri">https://doi.org/10.1016/j.rehab.2016.04.001</a></p>
+<p>Brasil. (2011). Decreto No 7.612, de 17 de Novembro de 2011. Institui o Plano Nacional dos Direitos da Pessoa com Deficiência - Plano Viver sem Limite. Retrieved August 14, 2020, from <a href="http://www.planalto.gov.br/ccivil_03/_Ato2011-2014/2011/Decreto/D7612.htm" class="uri">http://www.planalto.gov.br/ccivil_03/_Ato2011-2014/2011/Decreto/D7612.htm</a></p>
+<p>Brasil. (2017). Anuário Estatístico da Previdência Social 2017 (Vol. v.24). Brasília.</p>
+<p>Broomhead, P., Clark, K., Dawes, D., Hale, C., Lambert, A., Quinlivan, D., … Withpetersen, J. (2012). Evidence Based Clinical Guidelines for the Physiotherapy Management of Adults with Lower Limb Prostheses (2nd Editio). London: Chartered Society of Physiotherapy.</p>
+<p>Bruins, R., Bruins, M., Geertzen, J. H. B., Groothoff, J. W., &amp; Schoppen, T. (2003). Vocational reintegration after a lower limb amputation: A qualitative study. Prosthetics and Orthotics International, 27(1), 4–10. <a href="https://doi.org/10.3109/03093640309167971" class="uri">https://doi.org/10.3109/03093640309167971</a></p>
+<p>Campos, P. V. C., Luz, S. C. T. da, Sarmento, T., Biasoli, V., Santos, K. P. B. dos, &amp; Honório, G. J. da S. (2018). Barreiras e facilitadores para o retorno ao trabalho vivenciado por pessoas amputadas de membros inferiores, sob a ótica das diretrizes brasileiras. Cadernos Brasileiros de Terapia Ocupacional, 26(1), 111–118. <a href="https://doi.org/10.4322/2526-8910.ctoao0959" class="uri">https://doi.org/10.4322/2526-8910.ctoao0959</a></p>
+<p>Carvalho, J. A. (2003). Amputacões de membros inferiores : em busca da plena reabilitacão (2a). Barueri São Paulo SP Brasil: Manole.</p>
+<p>Chini, G. C. de O., &amp; Boemer, M. R. (2007). Amputation in the perception of those who experience it: a study under the phenomenological. Revista Latino-Americana de Enfermagem, 15(2), 330–336. <a href="https://doi.org/10.1590/s0104-11692007000200021" class="uri">https://doi.org/10.1590/s0104-11692007000200021</a></p>
+<p>Christiansen, C. L., Miller, M. J., Murray, A. M., Stephenson, R. O., Stevens-Lapsley, J. E., Hiatt, W. R., &amp; Schenkman, M. L. (2018). Behavior-Change Intervention Targeting Physical Function, Walking, and Disability After Dysvascular Amputation: A Randomized Controlled Pilot Trial. Archives of Physical Medicine and Rehabilitation, 99(11), 2160–2167. <a href="https://doi.org/10.1016/j.apmr.2018.04.011" class="uri">https://doi.org/10.1016/j.apmr.2018.04.011</a></p>
+<p>Cutson, T. M., &amp; Bongiorni, D. R. (1996). Rehabilitation of the older lower limb amputee: A brief review. Journal of the American Geriatrics Society, 44(11), 1388–1393. <a href="https://doi.org/10.1111/j.1532-5415.1996.tb01415.x" class="uri">https://doi.org/10.1111/j.1532-5415.1996.tb01415.x</a></p>
+<p>Dall, D., de Brito, agnol, Cristine Isernhagen, F., &amp; Zafanelli Depieri, T. (2005). Saúde Unipar. Arquivos de Ciências da Saúde da UNIPAR (Vol. 9). <a href="https://doi.org/10.25110/ARQSAUDE.V9I3.2005.193" class="uri">https://doi.org/10.25110/ARQSAUDE.V9I3.2005.193</a></p>
+<p>Eijk, M. S. Van, Van Der Linde, H., Buijck, B. I., Zuidema, S. U., &amp; Koopmans, R. T. (2012). Geriatric rehabilitation of lower limb amputees: A multicenter study. Disability and Rehabilitation, 34(2), 145–150. <a href="https://doi.org/10.3109/09638288.2011.591888" class="uri">https://doi.org/10.3109/09638288.2011.591888</a></p>
+<p>Fernandes, A.C., Ramos, A.;Casalis M.;Herbert, S. (2007). AACD: Medicina e Reabilitação Princípios e Prática. (Artes Médicas LTDA, Ed.). São Paulo.</p>
+<p>Fisher, K., Hanspal, R. S., &amp; Marks, L. (2003). Return to work after lower limb amputation. International Journal of Rehabilitation Research, 26(1), 51–56. <a href="https://doi.org/10.1097/01.mrr.0000054806.81886.d7" class="uri">https://doi.org/10.1097/01.mrr.0000054806.81886.d7</a></p>
+<p>Fortington, L. V., Geertzen, J. H. B., Van Netten, J. J., Postema, K., Rommers, G. M., &amp; Dijkstra, P. U. (2013). Short and long term mortality rates after a lower limb amputation. European Journal of Vascular and Endovascular Surgery, 46(1), 124–131. <a href="https://doi.org/10.1016/j.ejvs.2013.03.024" class="uri">https://doi.org/10.1016/j.ejvs.2013.03.024</a></p>
+<p>Gailey, R., Gaunaurd, I., Raya, M., Kirk-Sanchez, N., Prieto-Sanchez, L. M., &amp; Roach, K. (2020). Effectiveness of an Evidence-Based Amputee Rehabilitation Program: A Pilot Randomized Controlled Trial. Physical Therapy, 100(5), 773–787. <a href="https://doi.org/10.1093/ptj/pzaa008" class="uri">https://doi.org/10.1093/ptj/pzaa008</a></p>
+<p>Geertzen, J., Van Der Linde, H., Rosenbrand, K., Conradi, M., Deckers, J., Koning, J., … Voesten, H. (2015, October). Dutch evidence-based guidelines for amputation and prosthetics of the lower extremity: Amputation surgery and postoperative management. Part 1. Prosthetics and Orthotics International. SAGE Publications Inc. <a href="https://doi.org/10.1177/0309364614541460" class="uri">https://doi.org/10.1177/0309364614541460</a></p>
+<p>Hanashiro, R., Correia, V. D., &amp; Sugawara, A. T. (2018). Inclusão social no mercado de trabalho de pacientes amputados em processo de reabilitação. Acta Fisiátrica, 25(3). <a href="https://doi.org/10.11606/issn.2317-0190.v25i3a162671" class="uri">https://doi.org/10.11606/issn.2317-0190.v25i3a162671</a></p>
+<p>Hawkins, A. T., Henry, A. J., Crandell, D. M., &amp; Nguyen, L. L. (2014, April). A systematic review of functional and quality of life assessment after major lower extremity amputation. Annals of Vascular Surgery. Elsevier Inc. <a href="https://doi.org/10.1016/j.avsg.2013.07.011" class="uri">https://doi.org/10.1016/j.avsg.2013.07.011</a></p>
+<p>Highsmith, M. J., Andrews, C. R., Millman, C., Fuller, A., Kahle, J. T., Klenow, T. D., … Orriola, J. J. (2016). Gait Training Interventions for Lower Extremity Amputees: A Systematic Literature Review . Technology &amp; Innovation, 18(2), 99–113. <a href="https://doi.org/10.21300/18.2-3.2016.99" class="uri">https://doi.org/10.21300/18.2-3.2016.99</a></p>
+<p>Instituto Brasileiro de Geografia e Estatística - IBGE. (2010). Características Gerais da População, Religião e Pessoas Com Deficiência. Censo Demográfico 2010, 1–215. <a href="https://doi.org/ISSN" class="uri">https://doi.org/ISSN</a> 0101-4234</p>
+<p>Johnson, M. I., Mulvey, M. R., &amp; Bagnall, A. M. (2015, August). Transcutaneous electrical nerve stimulation (TENS) for phantom pain and stump pain following amputation in adults. Cochrane Database of Systematic Reviews. John Wiley and Sons Ltd. <a href="https://doi.org/10.1002/14651858.CD007264.pub3" class="uri">https://doi.org/10.1002/14651858.CD007264.pub3</a></p>
+<p>Lima, L. B. de, Correia, V. D., &amp; Salimene, A. C. de M. (2016). The social profile of the amputee patient in rehabilitation. Acta Fisiátrica, 23, 57–60. <a href="https://doi.org/10.5935/0104-7795.20160012" class="uri">https://doi.org/10.5935/0104-7795.20160012</a></p>
+<p>Ministério da Saúde Secretaria de Atenção à Saúde Departamento de Ações Programáticas Estratégicas, B. (2012). Diretrizes de atenção à pessoa amputada.</p>
+<p>Mitra, S., Palmer, M., Kim, H., Mont, D., &amp; Groce, N. (2017). Extra costs of living with a disability: A review and agenda for research. Disability and Health Journal, 10(4), 475–484. <a href="https://doi.org/10.1016/j.dhjo.2017.04.007" class="uri">https://doi.org/10.1016/j.dhjo.2017.04.007</a></p>
+<p>Nolan, L. (2012). A training programme to improve hip strength in persons with lower limb amputation. Journal of Rehabilitation Medicine, 44(3), 241–248. <a href="https://doi.org/10.2340/16501977-0921" class="uri">https://doi.org/10.2340/16501977-0921</a></p>
+<p>O’Young, et al. (2000). Segredos em Medicina Física e Reabilitação. (A. S. Medicas, Ed.). Porto Alegre.</p>
+<p>Pastre, C., Salioni, J., Oliveira, B. A., Micheletto, M., &amp; Netto Júnior, J. (2005). Fisioterapia e amputação transtibial. Arq. Ciênc. Saúde, 12(2), 120–124.</p>
+<p>Pedrinelli, A. (2004). Tratamento do Paciente com Amputação. (Roca, Ed.) (1a ed). São Paulo.</p>
+<p>Raichle, K. A., Hanley, M. A., Molton, I., Kadel, N. J., Campbell, K., Phelps, E., … Smith, D. G. (2008). Prosthesis use in persons with lower- and upper-limb amputation. Journal of Rehabilitation Research and Development, 45(7), 961–972. <a href="https://doi.org/10.1682/jrrd.2007.09.0151" class="uri">https://doi.org/10.1682/jrrd.2007.09.0151</a></p>
+<p>Schoeller, S. D., Silva, D. M. G. V. da, Vargas, M. A. de O., Borges, A. M. F., Pires, D. E. P. de, &amp; Bonetti, A. (2013). Características das pessoas amputadas atendidas em um centro de reabilitação. Rev. Enferm. UFPE on Line, 445–451.</p>
+<p>Smith, S., Pursey, H., Jones, A., Baker, H., Springate, G., Randell, T., … Davies, L. (2016). Clinical guidelines for the pre and post operative physiotherapy management of adults with lower limb amputations.</p>
+<p>The Rehabilitation of Individuals with Lower Limb Amputation Work Group, &amp; UEAR, G. T. of. (2017). VA/DoD Clinical Practice Guidline for rehabilitation of individual with lower limb amputation.</p>
+<p>Tilak, M., Isaac, S. A., Fletcher, J., Vasanthan, L. T., Subbaiah, R. S., Babu, A., … Tharion, G. (2016). Mirror Therapy and Transcutaneous Electrical Nerve Stimulation for Management of Phantom Limb Pain in Amputees - A Single Blinded Randomized Controlled Trial. Physiotherapy Research International, 21(2), 109–115. <a href="https://doi.org/10.1002/pri.1626" class="uri">https://doi.org/10.1002/pri.1626</a></p>
+<p>Timms, J., &amp; Carus, C. (2015). Mirror therapy for the alleviation of phantom limb pain following amputation: A literature review. International Journal of Therapy and Rehabilitation, 22(3), 135–145. <a href="https://doi.org/10.12968/ijtr.2015.22.3.135" class="uri">https://doi.org/10.12968/ijtr.2015.22.3.135</a></p>
+<p>Trevelyan, E. G., Turner, W. A., Summerfield-Mann, L., &amp; Robinson, N. (2016). Acupuncture for the treatment of phantom limb syndrome in lower limb amputees: A randomised controlled feasibility study. Trials, 17(1). <a href="https://doi.org/10.1186/s13063-016-1639-z" class="uri">https://doi.org/10.1186/s13063-016-1639-z</a></p>
+<p>Unwin, N. (2000). Epidemiology of lower extremity amputation in centres in Europe, North America and East Asia. British Journal of Surgery, 87(3), 328–337. <a href="https://doi.org/10.1046/j.1365-2168.2000.01344.x" class="uri">https://doi.org/10.1046/j.1365-2168.2000.01344.x</a></p>
+<p>Vieira, R. I., Luz, S. C. T. da, Santos, K. P. B. dos, Gonçalvez Junior, E., &amp; Campos, P. V. C. (2017). Physiotherapy intervention during pre and post-prosthetic fitting of lower limb amputees: a systematic review. Acta Fisiátrica, 24(2), 98–104. <a href="https://doi.org/10.5935/0104-7795.20170019" class="uri">https://doi.org/10.5935/0104-7795.20170019</a></p>
+<p>World Health Organization. (2001). International Classification of Functioning, Disability and Health. WHO Library Cataloguing-in-Publication Data International. Geneva.</p>
+<p>Yiğiter, K., Şener, G., Erbahçeci, F., Bayar, K., Ülger, Ö. G., &amp; Akdoğan, S. (2002). A comparison of traditional prosthetic training versus proprioceptive neuromuscular facilitation resistive gait training with trans-femoral amputees. Prosthetics and Orthotics International, 26(3), 213–217. <a href="https://doi.org/10.1080/03093640208726650" class="uri">https://doi.org/10.1080/03093640208726650</a></p>
+</div>
+
+<!--script for generating HORIZONTAL LINE-->
+<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+<p></p>
+
+
+<!--script for generating TWITTER share button-->
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+
+<a class="twitter-share-button"
+  href="https://twitter.com/intent"
+  data-size="large">
+Tweet</a>
+
+
+<!--script for generating FACEBOOK share button-->
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v10.0" nonce="CRj3ThIc"></script>
+
+<div class="fb-share-button" data-href="https://ferreiraas.github.io/Protetizacao/" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fferreiraas.github.io%2FProtetizacao%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Compartilhar</a></div>
+
+<!--PAGE CONTENT STARTS BELOW-->
+<p></p>
+
+<p>Copyright &copy; 2021 Caroline Lacerda Alves de Oliveira, MSc, Arthur de Sá Ferreira, PhD. Todos os direitos reservados. Última atualização: 27 Fev 2021</p>
+
+<p>Arthur de Sá Ferreira is creating websites for sharing science & art.</p>
+<p>If you enjoyed this content you can <a href="https://www.buymeacoffee.com/Arthur.Sa.Ferreira/">buy me a  ☕ coffee!</p>
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

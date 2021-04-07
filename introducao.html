@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>introducao.utf8</title>
+
+<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-sm-12 col-md-4 col-lg-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-sm-12 col-md-8 col-lg-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Reabilitação de Pessoas com Amputação</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Apresentação</a>
+</li>
+<li>
+  <a href="introducao.html">
+    <span class="fas fa-home"></span>
+     
+    Introdução
+  </a>
+</li>
+<li>
+  <a href="reabilitacao.html">
+    <span class="fas fa-wheelchair"></span>
+     
+    Reabilitação
+  </a>
+</li>
+<li>
+  <a href="busca.html">
+    <span class="fas fa-search"></span>
+     
+    Busca
+  </a>
+</li>
+<li>
+  <a href="preprotetizacao.html">
+    <span class="fas fa-universal-access"></span>
+     
+    Pré-protetização
+  </a>
+</li>
+<li>
+  <a href="posprotetizacao.html">
+    <span class="fas fa-universal-access"></span>
+     
+    Pós-protetização
+  </a>
+</li>
+<li>
+  <a href="referencias.html">
+    <span class="fas fa-book"></span>
+     
+    Referências
+  </a>
+</li>
+<li>
+  <a href="download.html">
+    <span class="fas fa-download"></span>
+     
+    Downloads
+  </a>
+</li>
+<li>
+  <a href="about.html">
+    <span class="fas fa-info"></span>
+     
+    Sobre
+  </a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+
+</div>
+
+
+<p><br> <br> <br></p>
+<div id="conceito-de-amputação" class="section level1">
+<h1><strong>1. Conceito de Amputação</strong></h1>
+<p><br></p>
+<p>Amputação diz respeito ao processo pelo qual se separa do corpo, mediante algum procedimento cirúrgico ou algum trauma, um membro ou parte deste (CHINI; BOEMER, 2007). A amputação é um dos mais antigos procedimentos cirúrgicos, a qual representou durante muito tempo e, em certas ocasiões, ainda representa a possibilidade de maior expectativa de vida (DALL et al., 2005). A amputação deve ser encarada não como o fim do processo terapêutico, mas como uma nova etapa a ser entendida, assimilada e vencida (BARAÚNA et al., 2006). Muitas vezes referenciada como perda, mutilação ou incapacidade, a amputação remete aos indivíduos, na maioria dos casos, pensamentos negativistas, de invalidez e de exclusão (DALL et al., 2005).</p>
+<p><br></p>
+</div>
+<div id="incidência" class="section level1">
+<h1><strong>2. Incidência</strong></h1>
+<p><br></p>
+<p>De acordo com o último Censo Demográfico, realizado no Brasil, em 2010, cerca de 45.623.910 pessoas, 23,9% da população brasileira, refere algum tipo de deficiência. Segundo esse censo, mais de 13 milhões de pessoas apresentam deficiência motora, o que corresponde a 6,95% da população do país (INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA - IBGE, 2010).</p>
+<p><br></p>
+</div>
+<div id="prevalência-e-mortalidade" class="section level1">
+<h1><strong>3. Prevalência e Mortalidade</strong></h1>
+<p><br></p>
+<p>A deficiência física afeta 6,95% da população, e neste contexto a amputação de membros inferiores continua sendo uma incapacidade extremamente prevalente que representa um problema de saúde pública devido as graves consequências funcionais e o alto custo ao sistema de saúde (HAWKINS et al., 2014; MINISTÉRIO DA SAÚDE SECRETARIA DE ATENÇÃO À SAÚDE DEPARTAMENTO DE AÇÕES PROGRAMÁTICAS ESTRATÉGICAS, 2012).A mortalidade entre pessoas com amputação de membros inferiores (PcAMI) é estimada em 22% e 77% em 30 dias e cinco anos após a amputação, respectivamente (FORTINGTON et al., 2013).</p>
+<p><br></p>
+</div>
+<div id="membro-acometido" class="section level1">
+<h1><strong>4. Membro Acometido</strong></h1>
+<p><br></p>
+<p>Estima-se que as amputações do membro inferior correspondam a 85% de todas as amputações de membros (CARVALHO, 2003).Em 2011, cerca de 94% das amputações realizadas pelo SUS foram no membro inferior (MINISTÉRIO DA SAÚDE SECRETARIA DE ATENÇÃO À SAÚDE DEPARTAMENTO DE AÇÕES PROGRAMÁTICAS ESTRATÉGICAS, 2012).</p>
+<p><br></p>
+</div>
+<div id="etiologia" class="section level1">
+<h1><strong>5. Etiologia</strong></h1>
+<p><br></p>
+<p>Os traumas relacionados a acidentes de trânsito e de trabalho, doenças ateroscleróticas e diabetes mellitus(MINISTÉRIO DA SAÚDE SECRETARIA DE ATENÇÃO À SAÚDE DEPARTAMENTO DE AÇÕES PROGRAMÁTICAS ESTRATÉGICAS, 2012; SCHOELLER et al., 2013).As amputações por causas traumáticas acometem principalmente indivíduos mais jovens, sendo 75% dessas no sexo masculino, principalmente por estarem mais expostos aos acidentes por meios de transporte e acidentes de trabalho, frutos da tecnologia moderna. Além disso, ferimentos por arma de fogo, queimaduras severas e descarga elétrica são outras causas(CARVALHO, 2003; MINISTÉRIO DA SAÚDE SECRETARIA DE ATENÇÃO À SAÚDE DEPARTAMENTO DE AÇÕES PROGRAMÁTICAS ESTRATÉGICAS, 2012; SCHOELLER et al., 2013).</p>
+<p><br></p>
+</div>
+<div id="alterações-provocadas-pela-amputação" class="section level1">
+<h1><strong>6. Alterações provocadas pela amputação</strong></h1>
+<p><br></p>
+<p>As PcAMI podem apresentar alterações na circulação sanguínea, no metabolismo, no esquema corporal, no equilíbrio, na marcha, na redução da capacidade de trabalho e na tolerância para as atividade de vida diária (AVD), necessitando de um enfoque especializado para que sua reabilitação seja alcançada (NOLAN, 2012; UNWIN, 2000).</p>
+<p><br></p>
+</div>
+<div id="níveis-de-amputação" class="section level1">
+<h1><strong>7. Níveis de amputação</strong></h1>
+<p><br></p>
+<p>Podem ocorrer em diferentes níveis ou partes do membro acometido, como: dedos, acima ou abaixo do joelho, nível da perna e quadril. Deve ser escolhido um nível que assegurará boa cicatrização, com adequada cobertura da pele e sensibilidade preservada. Um nível será tanto mais adequado quanto melhor se prestar a adaptação a uma prótese funcional, uma vez tendo sido satisfeitas as exigências relativas à sua escolha de acordo com a idade, com a etiologia e a necessidade da amputação (MINISTÉRIO DA SAÚDE SECRETARIA DE ATENÇÃO À SAÚDE DEPARTAMENTO DE AÇÕES PROGRAMÁTICAS ESTRATÉGICAS, 2012; PEDRINELLI, 2004) O nível da amputação mais comum é o transfemoral seguido do transtibial (PEDRINELLI, 2004).</p>
+<p><br></p>
+<p><em>Níveis de Amputação do Membro Inferior:</em> – Hemipelvectomia<br />
+– Desarticulação do quadril<br />
+– Transfemoral<br />
+– Desarticulação do joelho<br />
+– Transtibial<br />
+– Desarticulação do tornozelo<br />
+– Syme<br />
+– Parcial do pé</p>
+<p><br></p>
+</div>
+<div id="impacto-socioeconômico-da-amputação" class="section level1">
+<h1><strong>8. Impacto socioeconômico da amputação</strong></h1>
+<p><br></p>
+<p>Em 2017, no Brasil, apenas as despesas com aposentadorias por invalidez foram calculadas em cerca de R$ 58 milhões (BRASIL, 2017). As PcAMI podem ter sua capacidade laborativa reduzida e enfrentam barreiras para o retorno ao trabalho (CAMPOS et al., 2018; FISHER; HANSPAL; MARKS, 2003), além de apresentarem custos mais elevados por viverem com algum tipo de incapacidade (MITRA et al., 2017). Coletivamente, esses fatores impactam na sua renda e levam-nas a recorrer ao sistema de previdência e assistência social (HANASHIRO; CORREIA; SUGAWARA, 2018; LIMA; CORREIA; SALIMENE, 2016). Nesse contexto, mostra-se relevante a implantação de estratégias para reabilitação e para reinserção social dessa população (Figura 1).</p>
+<p><br></p>
+</div>
+<div id="o-papel-das-políticas-públicas" class="section level1">
+<h1><strong>9. O Papel das Políticas Públicas</strong></h1>
+<p><br></p>
+<p>O Brasil tem avançado na implementação de leis e planos para apoio ao pleno e efetivo exercício da capacidade legal das pessoas com deficiência. Nos últimos anos algumas políticas públicas brasileiras foram instituídas com objetivo de promover o exercício pleno e equitativo dos direitos das pessoas com deficiência. Em 2011 o Ministério da Saúde instituiu o Plano Nacional dos Direitos da Pessoa com Deficiência – Plano Viver sem Limite, e posteriormente a Rede de Cuidados à Pessoa com Deficiência. Estas políticas destacam em suas diretrizes a necessidade de garantia do acesso aos serviços de saúde e a reabilitação, preconizando a qualidade e o cuidado integral. A Diretriz Nacional da Pessoa Amputada ressalta a necessidade de ampliação do olhar das equipes multiprofissionais para o cuidado da pessoa com amputação de membro nos diferentes pontos de atenção da Rede de Cuidados à Pessoa com Deficiência (MINISTÉRIO DA SAÚDE SECRETARIA DE ATENÇÃO À SAÚDE DEPARTAMENTO DE AÇÕES PROGRAMÁTICAS ESTRATÉGICAS, 2012).</p>
+<p><br></p>
+<p>Por se tratar de um procedimento cirúrgico permanente realizado em nível hospitalar, sua complexidade exige a continuidade do cuidado em diversos pontos da rede de atenção a saúde, sendo a Atenção Primária em Saúde (APS) o nível responsável pela coordenação do cuidado e no direcionamento, sempre que necessário, para os demais pontos de atenção de atenção especializada e a reabilitação física (MINISTÉRIO DA SAÚDE SECRETARIA DE ATENÇÃO À SAÚDE DEPARTAMENTO DE AÇÕES PROGRAMÁTICAS ESTRATÉGICAS, 2012).</p>
+<p><br></p>
+</div>
+
+<!--script for generating HORIZONTAL LINE-->
+<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+<p></p>
+
+
+<!--script for generating TWITTER share button-->
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+
+<a class="twitter-share-button"
+  href="https://twitter.com/intent"
+  data-size="large">
+Tweet</a>
+
+
+<!--script for generating FACEBOOK share button-->
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v10.0" nonce="CRj3ThIc"></script>
+
+<div class="fb-share-button" data-href="https://ferreiraas.github.io/Protetizacao/" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fferreiraas.github.io%2FProtetizacao%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Compartilhar</a></div>
+
+<!--PAGE CONTENT STARTS BELOW-->
+<p></p>
+
+<p>Copyright &copy; 2021 Caroline Lacerda Alves de Oliveira, MSc, Arthur de Sá Ferreira, PhD. Todos os direitos reservados. Última atualização: 27 Fev 2021</p>
+
+<p>Arthur de Sá Ferreira is creating websites for sharing science & art.</p>
+<p>If you enjoyed this content you can <a href="https://www.buymeacoffee.com/Arthur.Sa.Ferreira/">buy me a  ☕ coffee!</p>
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
