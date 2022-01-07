@@ -1,0 +1,70 @@
+<br>
+<br>
+<br>
+
+<p align="right">
+```{r share, echo = FALSE, warning = FALSE, message = FALSE, fig.align='center', results = "asis"}
+# sorteia participante para relatar no texto
+library(fontawesome)
+
+cat("[")
+fa("twitter-square", margin_left = "0.2em", margin_right = "0.2em", height = "2em", width = "2em")
+cat("](https://twitter.com/share?url=rehab-tech.github.io/proteses/)")
+cat("&nbsp;&nbsp;&nbsp;")
+cat("[")
+fa("facebook-square", margin_left = "0.2em", margin_right = "0.2em", height = "2em", width = "2em")
+cat("](http://www.facebook.com/sharer.php?u=rehab-tech.github.io/proteses/)")
+cat("&nbsp;&nbsp;&nbsp;")
+cat("[")
+fa("linkedin", margin_left = "0.2em", margin_right = "0.2em", height = "2em", width = "2em")
+cat("](http://www.linkedin.com/shareArticle?mini=true&amp;url=rehab-tech.github.io/proteses/)")
+```
+</p>
+
+<!--script for generating HORIZONTAL LINE-->
+<hr style="height:2px;border-width:0;color:#2C3E50;background-color:#2C3E50">
+
+# **14.	Intervenções pós-protetização**
+
+<br>
+
+* Treino de marcha, objetivando condicionamento cardiovascular (CHRISTIANSEN et al., 2018; GAILEY et al., 2020; HIGHSMITH et al., 2016; THE REHABILITATION OF INDIVIDUALS WITH LOWER LIMB AMPUTATION WORK GROUP; UEAR, 2017; YIĞITER et al., 2002);
+
+<br>
+
+* Treino em esteira (HIGHSMITH et al., 2016);
+
+<br>
+
+* Treino de equilíbrio (GAILEY et al., 2020; NOLAN, 2012; SMITH et al., 2016; THE REHABILITATION OF INDIVIDUALS WITH LOWER LIMB AMPUTATION WORK GROUP; UEAR, 2017; YIĞITER et al., 2002);
+
+<br>
+
+* Exercícios de coordenação motora (GAILEY et al., 2020; NOLAN, 2012);
+
+<br>
+
+* Exercícios de aquecimento e relaxamento (NOLAN, 2012)
+
+<br>
+
+* Programa de fortalecimento para os principais grupos musculares da parte superior extremidades, tronco e membros residuais e contralaterais, afim de maximizar a funcionalidade (THE REHABILITATION OF INDIVIDUALS WITH LOWER LIMB AMPUTATION WORK GROUP; UEAR, 2017), destacando o fortalecimento dos músculos do quadril (GAILEY et al., 2020; NOLAN, 2012);
+
+<br>
+
+* Exercícios domiciliares, tendo como base fortalecimento, alongamento e autogestão da doença (CHRISTIANSEN et al., 2018);
+
+<br>
+
+* Flexibilidade, suporte de peso e controle de postura (GAILEY et al., 2020);
+
+<br>
+
+* Bicicleta estacionária (NOLAN, 2012);
+
+<br>
+
+* Deslocamento de peso, subir e descer escadas (YIĞITER et al., 2002).
+
+<br>
+

@@ -1,0 +1,49 @@
+name: "pcami-website"
+output_dir: "docs"
+include: ["Oliveira & Ferreira, 2021.pdf", "Quadro.pdf"]
+navbar:
+  title: "Reabilitação de Pessoas com Amputação"
+  left:
+    - text: "Apresentação"
+      href: index.html
+    - text: "Introdução"
+      icon: fa-home
+      href: introducao.html
+    - text: "Reabilitação"
+      icon: fa-wheelchair
+      href: reabilitacao.html
+    - text: "Busca"
+      icon: fa-search
+      href: busca.html
+    - text: "Pré-protetização"
+      icon: fa-universal-access
+      href: preprotetizacao.html
+    - text: "Pós-protetização"
+      icon: fa-universal-access
+      href: posprotetizacao.html
+    - text: "Referências"
+      icon: fa-book
+      href: referencias.html
+    - text: "Downloads"
+      icon: fa-download
+      href: download.html
+    - text: "Sobre"
+      icon: fa-info
+      href: about.html
+      
+output:
+  html_document:
+    theme: cerulean
+    highlight: textmate
+    include:
+      after_body: footer.html
+    css: style.css
+    toc: true
+    toc_float: true
+    toc_depth: 2
+    edit: null
+    sharing:
+      facebook: yes
+      twitter: yes
+      google: yes
+      all: ["facebook", "twitter", "google"]

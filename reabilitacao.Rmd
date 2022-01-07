@@ -1,0 +1,82 @@
+<br>
+<br>
+<br>
+
+<p align="right">
+```{r share, echo = FALSE, warning = FALSE, message = FALSE, fig.align='center', results = "asis"}
+# sorteia participante para relatar no texto
+library(fontawesome)
+
+cat("[")
+fa("twitter-square", margin_left = "0.2em", margin_right = "0.2em", height = "2em", width = "2em")
+cat("](https://twitter.com/share?url=rehab-tech.github.io/proteses/)")
+cat("&nbsp;&nbsp;&nbsp;")
+cat("[")
+fa("facebook-square", margin_left = "0.2em", margin_right = "0.2em", height = "2em", width = "2em")
+cat("](http://www.facebook.com/sharer.php?u=rehab-tech.github.io/proteses/)")
+cat("&nbsp;&nbsp;&nbsp;")
+cat("[")
+fa("linkedin", margin_left = "0.2em", margin_right = "0.2em", height = "2em", width = "2em")
+cat("](http://www.linkedin.com/shareArticle?mini=true&amp;url=rehab-tech.github.io/proteses/)")
+```
+</p>
+
+<!--script for generating HORIZONTAL LINE-->
+<hr style="height:2px;border-width:0;color:#2C3E50;background-color:#2C3E50">
+
+# **10.	Como Conduzir a Reabilitação**
+
+<br>
+
+As intervenções fisioterapêuticas nas PcAMI  antes e após a colocação de uma prótese são utilizadas em diversos serviços de fisioterapia, no entanto, faz-se necessária a sistematização de evidências sobre protocolos para condução da reabilitação (VIEIRA et al., 2017).
+
+<br>
+
+A reabilitação pode ser definida como “um conjunto de medidas que ajudam pessoas com deficiências ou prestes a adquirir deficiências a terem e manterem uma funcionalidade ideal na interação com seu ambiente”. A reabilitação deve incluir ações que melhorem a capacidade de uma pessoa realizar atividades de vida diária e incluir intervenções no ambiente do indivíduo, por exemplo, a instalação de uma barra de apoio no banheiro, orientações quanto a dispositivos auxiliares e adaptações domiciliares (WORLD HEALTH ORGANIZATION, 2001).
+
+<br>
+
+O programa de reabilitação deve iniciar o mais breve possível para ajudar o paciente a adaptar-se às suas incapacidades, favorecer sua recuperação funcional, motora, neuropsicológica, e promover sua integração familiar, social e profissional (FERNANDES, A.C., RAMOS, A.; CASALIS M.;HERBERT, 2007; O’YOUNG, 2000).
+
+<br>
+
+# **11.	Etapas da Reabilitação**
+
+<br>
+
+Com o presente manual identificamos as principais intervenções fisioterapêuticas, utilizadas na prática clínica, que possuem evidências científicas, visando auxiliar os fisioterapeutas nos processos de protetização das PcAMI.
+
+<br>
+
+A reabilitação física visa a recuperação da capacidade funcional e na mobilidade das PcAMI, destacando-se dois momentos: a etapa pré-protetização que prepara o coto para a utilização de prótese; e a etapa pós-protetização, que compreende um extenso período de adaptação e treino ao uso da prótese (PASTRE et al., 2005).
+Diversos fatores estão associados ao sucesso da protetização e à sobrevida, tais como idade e presença de comorbidades (CUTSON; BONGIORNI, 1996; EIJK et al., 2012; RAICHLE et al., 2008).
+
+<br>
+
+## *E se o paciente não adapta a sua prótese?*
+
+<br>
+
+Quando a PcAMI não completa o processo de reabilitação após receber sua prótese, esta se torna inutilizada por se tratar de um dispositivo de uso individual e personalizado, representando, portanto, desperdícios adicionais de recursos públicos quando fornecidas via Sistema Único de Saúde (SUS), por meio do Plano Nacional dos Direitos da Pessoa com Deficiência(BRASIL, 2011). 
+
+<br>
+
+## *Um paciente reabilitado é um paciente com prótese?*
+
+<br>
+
+A prótese tem um papel chave na reabilitação física e psicológica dos sujeitos acometidos, no entanto, reabilitar não significa adquirir uma prótese. Faz-se necessário um programa de reabilitação que ajude o paciente a adaptar-se às suas incapacidades, favorecer sua recuperação funcional, mental e social, e assim promover sua integração familiar, social e profissional (BRUINS et al., 2003; FERNANDES, A.C., RAMOS, A.;CASALIS M.;HERBERT, 2007; O’YOUNG, 2000).
+
+<br>
+
+## *A importância do fisioterapeuta*
+
+<br>
+
+No que concerne ao tema reabilitação das PcAMI, pode-se salientar que o fisioterapeuta é um dos responsáveis pelas orientações durante todo o processo, desde os locais onde são fornecidos os programas de reabilitação, bem como informações sobre o processo de protetização, seus benefícios e auxilio no uso correto da prótese, até o suporte para a manutenção desta e informação sobre a limitação funcional de cada pessoa a partir do seu nível de amputação (BROOMHEAD et al., 2012). As orientações devem ser adaptadas às necessidades de cada PcAMI, e a forma como essas orientações serão fornecidas, também, terá de ser adaptada a cada pessoa (GEERTZEN et al., 2015). Assim, esses profissionais devem estar preparados para reabilitar as PcAMI, de modo a oferecer uma assistência diferenciada, contribuindo para sua inclusão no convívio familiar e no social.
+
+<br>
+
+Além disso, uma boa comunicação entre profissionais e o paciente é essencial e deve ser apoiada por informações, baseadas em evidências, adaptadas às necessidades do paciente (THE REHABILITATION OF INDIVIDUALS WITH LOWER LIMB AMPUTATION WORK GROUP; UEAR, 2017), assim como o envolvimento dos familiares, nesse processo, é de extrema importância (BROOMHEAD et al., 2012).
+
+<br>

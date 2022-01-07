@@ -1,0 +1,114 @@
+<br>
+<br>
+<br>
+
+<p align="right">
+```{r share, echo = FALSE, warning = FALSE, message = FALSE, fig.align='center', results = "asis"}
+# sorteia participante para relatar no texto
+library(fontawesome)
+
+cat("[")
+fa("twitter-square", margin_left = "0.2em", margin_right = "0.2em", height = "2em", width = "2em")
+cat("](https://twitter.com/share?url=rehab-tech.github.io/proteses/)")
+cat("&nbsp;&nbsp;&nbsp;")
+cat("[")
+fa("facebook-square", margin_left = "0.2em", margin_right = "0.2em", height = "2em", width = "2em")
+cat("](http://www.facebook.com/sharer.php?u=rehab-tech.github.io/proteses/)")
+cat("&nbsp;&nbsp;&nbsp;")
+cat("[")
+fa("linkedin", margin_left = "0.2em", margin_right = "0.2em", height = "2em", width = "2em")
+cat("](http://www.linkedin.com/shareArticle?mini=true&amp;url=rehab-tech.github.io/proteses/)")
+```
+</p>
+
+<!--script for generating HORIZONTAL LINE-->
+<hr style="height:2px;border-width:0;color:#2C3E50;background-color:#2C3E50">
+
+# **1.	Conceito de Amputação**
+
+<br>
+
+Amputação diz respeito ao processo pelo qual se separa do corpo, mediante algum procedimento cirúrgico ou algum trauma, um membro ou parte deste (CHINI; BOEMER, 2007). A amputação é um dos mais antigos procedimentos cirúrgicos, a qual representou durante muito tempo e, em certas ocasiões, ainda representa a possibilidade de maior expectativa de vida (DALL et al., 2005). A amputação deve ser encarada não como o fim do processo terapêutico, mas como uma nova etapa a ser entendida, assimilada e vencida (BARAÚNA et al., 2006).
+Muitas vezes referenciada como perda, mutilação ou incapacidade, a amputação remete aos indivíduos, na maioria dos casos, pensamentos negativistas, de invalidez e de exclusão (DALL et al., 2005).
+
+<br>
+
+# **2.	Incidência**
+
+<br>
+
+De acordo com o último Censo Demográfico, realizado no Brasil, em 2010, cerca de 45.623.910 pessoas, 23,9% da população brasileira, refere algum tipo de deficiência. Segundo esse censo, mais de 13 milhões de pessoas apresentam deficiência motora, o que corresponde a 6,95% da população do país (INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA - IBGE, 2010).
+
+<br>
+
+# **3.	Prevalência e Mortalidade**
+
+<br>
+
+A deficiência física afeta 6,95% da população, e neste contexto a amputação de membros inferiores continua sendo uma incapacidade extremamente prevalente que representa um problema de saúde pública devido as graves consequências funcionais e o alto custo ao sistema de saúde (HAWKINS et al., 2014; MINISTÉRIO DA SAÚDE SECRETARIA DE ATENÇÃO À SAÚDE DEPARTAMENTO DE AÇÕES PROGRAMÁTICAS ESTRATÉGICAS, 2012).A mortalidade entre pessoas com amputação de membros inferiores (PcAMI) é estimada em 22% e 77% em 30 dias e cinco anos após a amputação, respectivamente (FORTINGTON et al., 2013).
+
+<br>
+
+# **4.	Membro Acometido**
+
+<br>
+
+Estima-se que as amputações do membro inferior correspondam a 85% de todas as amputações de membros (CARVALHO, 2003).Em 2011, cerca de 94% das amputações realizadas pelo SUS foram no membro inferior (MINISTÉRIO DA SAÚDE SECRETARIA DE ATENÇÃO À SAÚDE DEPARTAMENTO DE AÇÕES PROGRAMÁTICAS ESTRATÉGICAS, 2012).
+
+<br>
+
+# **5.	Etiologia**
+
+<br>
+
+Os traumas relacionados a acidentes de trânsito e de trabalho, doenças ateroscleróticas e diabetes mellitus(MINISTÉRIO DA SAÚDE SECRETARIA DE ATENÇÃO À SAÚDE DEPARTAMENTO DE AÇÕES PROGRAMÁTICAS ESTRATÉGICAS, 2012; SCHOELLER et al., 2013).As amputações por causas traumáticas acometem principalmente indivíduos mais jovens, sendo 75% dessas no sexo masculino, principalmente por estarem mais expostos aos acidentes por meios de transporte e acidentes de trabalho, frutos da tecnologia moderna. Além disso, ferimentos por arma de fogo, queimaduras severas e descarga elétrica são outras causas(CARVALHO, 2003; MINISTÉRIO DA SAÚDE SECRETARIA DE ATENÇÃO À SAÚDE DEPARTAMENTO DE AÇÕES PROGRAMÁTICAS ESTRATÉGICAS, 2012; SCHOELLER et al., 2013).
+
+<br>
+
+# **6.	Alterações provocadas pela amputação**
+
+<br>
+
+As PcAMI podem apresentar alterações na circulação sanguínea, no metabolismo, no esquema corporal, no equilíbrio, na marcha, na redução da capacidade de trabalho e na tolerância para as atividade de vida diária (AVD), necessitando de um enfoque especializado para que sua reabilitação seja alcançada (NOLAN, 2012; UNWIN, 2000).
+
+<br>
+
+# **7.	Níveis de amputação**
+
+<br>
+
+Podem ocorrer em diferentes níveis ou partes do membro acometido, como: dedos, acima ou abaixo do joelho, nível da perna e quadril. Deve ser escolhido um nível que assegurará boa cicatrização, com adequada cobertura da pele e sensibilidade preservada. Um nível será tanto mais adequado quanto melhor se prestar a adaptação a uma prótese funcional, uma vez tendo sido satisfeitas as exigências relativas à sua escolha de acordo com a idade, com a etiologia e a necessidade da amputação (MINISTÉRIO DA SAÚDE SECRETARIA DE ATENÇÃO À SAÚDE DEPARTAMENTO DE AÇÕES PROGRAMÁTICAS ESTRATÉGICAS, 2012; PEDRINELLI, 2004) O nível da amputação mais comum é o transfemoral seguido do transtibial (PEDRINELLI, 2004).
+
+<br>
+
+*Níveis de Amputação do Membro Inferior:*
+-- Hemipelvectomia  
+-- Desarticulação do quadril  
+-- Transfemoral  
+-- Desarticulação do joelho  
+-- Transtibial  
+-- Desarticulação do tornozelo  
+-- Syme  
+-- Parcial do pé  
+
+<br>
+
+# **8.	Impacto socioeconômico da amputação**
+
+<br>
+
+Em 2017, no Brasil, apenas as despesas com aposentadorias por invalidez foram calculadas em cerca de R$ 58 milhões (BRASIL, 2017). As PcAMI podem ter sua capacidade laborativa reduzida e enfrentam barreiras para o retorno ao trabalho (CAMPOS et al., 2018; FISHER; HANSPAL; MARKS, 2003), além de apresentarem custos mais elevados por viverem com algum tipo de incapacidade (MITRA et al., 2017). Coletivamente, esses fatores impactam na sua renda e levam-nas a recorrer ao sistema de previdência e assistência social (HANASHIRO; CORREIA; SUGAWARA, 2018; LIMA; CORREIA; SALIMENE, 2016). Nesse contexto, mostra-se relevante a implantação de estratégias para reabilitação e para reinserção social dessa população (Figura 1).
+
+<br>
+
+# **9.	O Papel das Políticas Públicas**
+
+<br>
+
+O Brasil tem avançado na implementação de leis e planos para apoio ao pleno e efetivo exercício da capacidade legal das pessoas com deficiência. Nos últimos anos algumas políticas públicas brasileiras foram instituídas com objetivo de promover o exercício pleno e equitativo dos direitos das pessoas com deficiência. Em 2011 o Ministério da Saúde instituiu o Plano Nacional dos Direitos da Pessoa com Deficiência – Plano Viver sem Limite, e posteriormente a Rede de Cuidados à Pessoa com Deficiência. Estas políticas destacam em suas diretrizes a necessidade de garantia do acesso aos serviços de saúde e a reabilitação, preconizando a qualidade e o cuidado integral. A Diretriz Nacional da Pessoa Amputada ressalta a necessidade de ampliação do olhar das equipes multiprofissionais para o cuidado da pessoa com amputação de membro nos diferentes pontos de atenção da Rede de Cuidados à Pessoa com Deficiência (MINISTÉRIO DA SAÚDE SECRETARIA DE ATENÇÃO À SAÚDE DEPARTAMENTO DE AÇÕES PROGRAMÁTICAS ESTRATÉGICAS, 2012).
+
+<br>
+
+Por se tratar de um procedimento cirúrgico permanente realizado em nível hospitalar, sua complexidade exige a continuidade do cuidado em diversos pontos da rede de atenção a saúde, sendo a Atenção Primária em Saúde (APS) o nível responsável pela coordenação do cuidado e no direcionamento, sempre que necessário, para os demais pontos de atenção de atenção especializada e a reabilitação física (MINISTÉRIO DA SAÚDE SECRETARIA DE ATENÇÃO À SAÚDE DEPARTAMENTO DE AÇÕES PROGRAMÁTICAS ESTRATÉGICAS, 2012).
+
+<br>
