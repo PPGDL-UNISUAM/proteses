@@ -13,7 +13,7 @@
 
 <title>referencias.knit</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
@@ -62,6 +62,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="style.css" type="text/css" />
 
 
@@ -86,6 +87,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -311,7 +315,7 @@ div.tocify {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -397,54 +401,215 @@ div.tocify {
 
 <p><br> <br> <br></p>
 <p align="right">
-<a href="https://twitter.com/share?url=rehab-tech.github.io/proteses/"><svg preserveAspectRatio="none" aria-hidden="true" role="img" viewBox="0 0 448 512" style="height:2em;width:2em;vertical-align:-0.125em;margin-left:0.2em;margin-right:0.2em;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8.2 5.7.2 8.5 0 86.7-66 186.6-186.6 186.6-37.2 0-71.7-10.8-100.7-29.4 5.3.6 10.4.8 15.8.8 30.7 0 58.9-10.4 81.4-28-28.8-.6-53-19.5-61.3-45.5 10.1 1.5 19.2 1.5 29.6-1.2-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.447 65.447 0 0 1-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5 24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2 28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z"/></svg></a>   <a href="http://www.facebook.com/sharer.php?u=rehab-tech.github.io/proteses/"><svg preserveAspectRatio="none" aria-hidden="true" role="img" viewBox="0 0 448 512" style="height:2em;width:2em;vertical-align:-0.125em;margin-left:0.2em;margin-right:0.2em;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"/></svg></a>   <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=rehab-tech.github.io/proteses/"><svg preserveAspectRatio="none" aria-hidden="true" role="img" viewBox="0 0 448 512" style="height:2em;width:2em;vertical-align:-0.125em;margin-left:0.2em;margin-right:0.2em;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a>
+<a
+href="https://twitter.com/share?url=rehab-tech.github.io/proteses/"></a>   <a
+href="http://www.facebook.com/sharer.php?u=rehab-tech.github.io/proteses/"></a>   <a
+href="http://www.linkedin.com/shareArticle?mini=true&amp;url=rehab-tech.github.io/proteses/"></a>
 </p>
 <!--script for generating HORIZONTAL LINE-->
 <hr style="height:2px;border-width:0;color:#2C3E50;background-color:#2C3E50">
 <div id="referências" class="section level1">
 <h1><strong>Referências</strong></h1>
 <p><br></p>
-<p>Baraúna, M., Duarte, F., Sanchez, H., Canto, R., Malusá, S., Campelo-Silva, C., &amp; Ventura-Silva, R. (2006). Avaliação do equilíbrio estático em indivíduos amputados de membros inferiores através da biofotogrametria computadorizada. Revista Brasileira de Fisioterapia, 10(1), 83–90. <a href="https://doi.org/10.1590/s1413-35552006000100011" class="uri">https://doi.org/10.1590/s1413-35552006000100011</a></p>
-<p>Barbin, J., Seetha, V., Casillas, J. M., Paysant, J., &amp; Pérennou, D. (2016, September). The effects of mirror therapy on pain and motor control of phantom limb in amputees: A systematic review. Annals of Physical and Rehabilitation Medicine. Elsevier Masson SAS. <a href="https://doi.org/10.1016/j.rehab.2016.04.001" class="uri">https://doi.org/10.1016/j.rehab.2016.04.001</a></p>
-<p>Brasil. (2011). Decreto No 7.612, de 17 de Novembro de 2011. Institui o Plano Nacional dos Direitos da Pessoa com Deficiência - Plano Viver sem Limite. Retrieved August 14, 2020, from <a href="http://www.planalto.gov.br/ccivil_03/_Ato2011-2014/2011/Decreto/D7612.htm" class="uri">http://www.planalto.gov.br/ccivil_03/_Ato2011-2014/2011/Decreto/D7612.htm</a></p>
-<p>Brasil. (2017). Anuário Estatístico da Previdência Social 2017 (Vol. v.24). Brasília.</p>
-<p>Broomhead, P., Clark, K., Dawes, D., Hale, C., Lambert, A., Quinlivan, D., … Withpetersen, J. (2012). Evidence Based Clinical Guidelines for the Physiotherapy Management of Adults with Lower Limb Prostheses (2nd Editio). London: Chartered Society of Physiotherapy.</p>
-<p>Bruins, R., Bruins, M., Geertzen, J. H. B., Groothoff, J. W., &amp; Schoppen, T. (2003). Vocational reintegration after a lower limb amputation: A qualitative study. Prosthetics and Orthotics International, 27(1), 4–10. <a href="https://doi.org/10.3109/03093640309167971" class="uri">https://doi.org/10.3109/03093640309167971</a></p>
-<p>Campos, P. V. C., Luz, S. C. T. da, Sarmento, T., Biasoli, V., Santos, K. P. B. dos, &amp; Honório, G. J. da S. (2018). Barreiras e facilitadores para o retorno ao trabalho vivenciado por pessoas amputadas de membros inferiores, sob a ótica das diretrizes brasileiras. Cadernos Brasileiros de Terapia Ocupacional, 26(1), 111–118. <a href="https://doi.org/10.4322/2526-8910.ctoao0959" class="uri">https://doi.org/10.4322/2526-8910.ctoao0959</a></p>
-<p>Carvalho, J. A. (2003). Amputacões de membros inferiores : em busca da plena reabilitacão (2a). Barueri São Paulo SP Brasil: Manole.</p>
-<p>Chini, G. C. de O., &amp; Boemer, M. R. (2007). Amputation in the perception of those who experience it: a study under the phenomenological. Revista Latino-Americana de Enfermagem, 15(2), 330–336. <a href="https://doi.org/10.1590/s0104-11692007000200021" class="uri">https://doi.org/10.1590/s0104-11692007000200021</a></p>
-<p>Christiansen, C. L., Miller, M. J., Murray, A. M., Stephenson, R. O., Stevens-Lapsley, J. E., Hiatt, W. R., &amp; Schenkman, M. L. (2018). Behavior-Change Intervention Targeting Physical Function, Walking, and Disability After Dysvascular Amputation: A Randomized Controlled Pilot Trial. Archives of Physical Medicine and Rehabilitation, 99(11), 2160–2167. <a href="https://doi.org/10.1016/j.apmr.2018.04.011" class="uri">https://doi.org/10.1016/j.apmr.2018.04.011</a></p>
-<p>Cutson, T. M., &amp; Bongiorni, D. R. (1996). Rehabilitation of the older lower limb amputee: A brief review. Journal of the American Geriatrics Society, 44(11), 1388–1393. <a href="https://doi.org/10.1111/j.1532-5415.1996.tb01415.x" class="uri">https://doi.org/10.1111/j.1532-5415.1996.tb01415.x</a></p>
-<p>Dall, D., de Brito, agnol, Cristine Isernhagen, F., &amp; Zafanelli Depieri, T. (2005). Saúde Unipar. Arquivos de Ciências da Saúde da UNIPAR (Vol. 9). <a href="https://doi.org/10.25110/ARQSAUDE.V9I3.2005.193" class="uri">https://doi.org/10.25110/ARQSAUDE.V9I3.2005.193</a></p>
-<p>Eijk, M. S. Van, Van Der Linde, H., Buijck, B. I., Zuidema, S. U., &amp; Koopmans, R. T. (2012). Geriatric rehabilitation of lower limb amputees: A multicenter study. Disability and Rehabilitation, 34(2), 145–150. <a href="https://doi.org/10.3109/09638288.2011.591888" class="uri">https://doi.org/10.3109/09638288.2011.591888</a></p>
-<p>Fernandes, A.C., Ramos, A.;Casalis M.;Herbert, S. (2007). AACD: Medicina e Reabilitação Princípios e Prática. (Artes Médicas LTDA, Ed.). São Paulo.</p>
-<p>Fisher, K., Hanspal, R. S., &amp; Marks, L. (2003). Return to work after lower limb amputation. International Journal of Rehabilitation Research, 26(1), 51–56. <a href="https://doi.org/10.1097/01.mrr.0000054806.81886.d7" class="uri">https://doi.org/10.1097/01.mrr.0000054806.81886.d7</a></p>
-<p>Fortington, L. V., Geertzen, J. H. B., Van Netten, J. J., Postema, K., Rommers, G. M., &amp; Dijkstra, P. U. (2013). Short and long term mortality rates after a lower limb amputation. European Journal of Vascular and Endovascular Surgery, 46(1), 124–131. <a href="https://doi.org/10.1016/j.ejvs.2013.03.024" class="uri">https://doi.org/10.1016/j.ejvs.2013.03.024</a></p>
-<p>Gailey, R., Gaunaurd, I., Raya, M., Kirk-Sanchez, N., Prieto-Sanchez, L. M., &amp; Roach, K. (2020). Effectiveness of an Evidence-Based Amputee Rehabilitation Program: A Pilot Randomized Controlled Trial. Physical Therapy, 100(5), 773–787. <a href="https://doi.org/10.1093/ptj/pzaa008" class="uri">https://doi.org/10.1093/ptj/pzaa008</a></p>
-<p>Geertzen, J., Van Der Linde, H., Rosenbrand, K., Conradi, M., Deckers, J., Koning, J., … Voesten, H. (2015, October). Dutch evidence-based guidelines for amputation and prosthetics of the lower extremity: Amputation surgery and postoperative management. Part 1. Prosthetics and Orthotics International. SAGE Publications Inc. <a href="https://doi.org/10.1177/0309364614541460" class="uri">https://doi.org/10.1177/0309364614541460</a></p>
-<p>Hanashiro, R., Correia, V. D., &amp; Sugawara, A. T. (2018). Inclusão social no mercado de trabalho de pacientes amputados em processo de reabilitação. Acta Fisiátrica, 25(3). <a href="https://doi.org/10.11606/issn.2317-0190.v25i3a162671" class="uri">https://doi.org/10.11606/issn.2317-0190.v25i3a162671</a></p>
-<p>Hawkins, A. T., Henry, A. J., Crandell, D. M., &amp; Nguyen, L. L. (2014, April). A systematic review of functional and quality of life assessment after major lower extremity amputation. Annals of Vascular Surgery. Elsevier Inc. <a href="https://doi.org/10.1016/j.avsg.2013.07.011" class="uri">https://doi.org/10.1016/j.avsg.2013.07.011</a></p>
-<p>Highsmith, M. J., Andrews, C. R., Millman, C., Fuller, A., Kahle, J. T., Klenow, T. D., … Orriola, J. J. (2016). Gait Training Interventions for Lower Extremity Amputees: A Systematic Literature Review . Technology &amp; Innovation, 18(2), 99–113. <a href="https://doi.org/10.21300/18.2-3.2016.99" class="uri">https://doi.org/10.21300/18.2-3.2016.99</a></p>
-<p>Instituto Brasileiro de Geografia e Estatística - IBGE. (2010). Características Gerais da População, Religião e Pessoas Com Deficiência. Censo Demográfico 2010, 1–215. <a href="https://doi.org/ISSN" class="uri">https://doi.org/ISSN</a> 0101-4234</p>
-<p>Johnson, M. I., Mulvey, M. R., &amp; Bagnall, A. M. (2015, August). Transcutaneous electrical nerve stimulation (TENS) for phantom pain and stump pain following amputation in adults. Cochrane Database of Systematic Reviews. John Wiley and Sons Ltd. <a href="https://doi.org/10.1002/14651858.CD007264.pub3" class="uri">https://doi.org/10.1002/14651858.CD007264.pub3</a></p>
-<p>Lima, L. B. de, Correia, V. D., &amp; Salimene, A. C. de M. (2016). The social profile of the amputee patient in rehabilitation. Acta Fisiátrica, 23, 57–60. <a href="https://doi.org/10.5935/0104-7795.20160012" class="uri">https://doi.org/10.5935/0104-7795.20160012</a></p>
-<p>Ministério da Saúde Secretaria de Atenção à Saúde Departamento de Ações Programáticas Estratégicas, B. (2012). Diretrizes de atenção à pessoa amputada.</p>
-<p>Mitra, S., Palmer, M., Kim, H., Mont, D., &amp; Groce, N. (2017). Extra costs of living with a disability: A review and agenda for research. Disability and Health Journal, 10(4), 475–484. <a href="https://doi.org/10.1016/j.dhjo.2017.04.007" class="uri">https://doi.org/10.1016/j.dhjo.2017.04.007</a></p>
-<p>Nolan, L. (2012). A training programme to improve hip strength in persons with lower limb amputation. Journal of Rehabilitation Medicine, 44(3), 241–248. <a href="https://doi.org/10.2340/16501977-0921" class="uri">https://doi.org/10.2340/16501977-0921</a></p>
-<p>O’Young, et al. (2000). Segredos em Medicina Física e Reabilitação. (A. S. Medicas, Ed.). Porto Alegre.</p>
-<p>Pastre, C., Salioni, J., Oliveira, B. A., Micheletto, M., &amp; Netto Júnior, J. (2005). Fisioterapia e amputação transtibial. Arq. Ciênc. Saúde, 12(2), 120–124.</p>
-<p>Pedrinelli, A. (2004). Tratamento do Paciente com Amputação. (Roca, Ed.) (1a ed). São Paulo.</p>
-<p>Raichle, K. A., Hanley, M. A., Molton, I., Kadel, N. J., Campbell, K., Phelps, E., … Smith, D. G. (2008). Prosthesis use in persons with lower- and upper-limb amputation. Journal of Rehabilitation Research and Development, 45(7), 961–972. <a href="https://doi.org/10.1682/jrrd.2007.09.0151" class="uri">https://doi.org/10.1682/jrrd.2007.09.0151</a></p>
-<p>Schoeller, S. D., Silva, D. M. G. V. da, Vargas, M. A. de O., Borges, A. M. F., Pires, D. E. P. de, &amp; Bonetti, A. (2013). Características das pessoas amputadas atendidas em um centro de reabilitação. Rev. Enferm. UFPE on Line, 445–451.</p>
-<p>Smith, S., Pursey, H., Jones, A., Baker, H., Springate, G., Randell, T., … Davies, L. (2016). Clinical guidelines for the pre and post operative physiotherapy management of adults with lower limb amputations.</p>
-<p>The Rehabilitation of Individuals with Lower Limb Amputation Work Group, &amp; UEAR, G. T. of. (2017). VA/DoD Clinical Practice Guidline for rehabilitation of individual with lower limb amputation.</p>
-<p>Tilak, M., Isaac, S. A., Fletcher, J., Vasanthan, L. T., Subbaiah, R. S., Babu, A., … Tharion, G. (2016). Mirror Therapy and Transcutaneous Electrical Nerve Stimulation for Management of Phantom Limb Pain in Amputees - A Single Blinded Randomized Controlled Trial. Physiotherapy Research International, 21(2), 109–115. <a href="https://doi.org/10.1002/pri.1626" class="uri">https://doi.org/10.1002/pri.1626</a></p>
-<p>Timms, J., &amp; Carus, C. (2015). Mirror therapy for the alleviation of phantom limb pain following amputation: A literature review. International Journal of Therapy and Rehabilitation, 22(3), 135–145. <a href="https://doi.org/10.12968/ijtr.2015.22.3.135" class="uri">https://doi.org/10.12968/ijtr.2015.22.3.135</a></p>
-<p>Trevelyan, E. G., Turner, W. A., Summerfield-Mann, L., &amp; Robinson, N. (2016). Acupuncture for the treatment of phantom limb syndrome in lower limb amputees: A randomised controlled feasibility study. Trials, 17(1). <a href="https://doi.org/10.1186/s13063-016-1639-z" class="uri">https://doi.org/10.1186/s13063-016-1639-z</a></p>
-<p>Unwin, N. (2000). Epidemiology of lower extremity amputation in centres in Europe, North America and East Asia. British Journal of Surgery, 87(3), 328–337. <a href="https://doi.org/10.1046/j.1365-2168.2000.01344.x" class="uri">https://doi.org/10.1046/j.1365-2168.2000.01344.x</a></p>
-<p>Vieira, R. I., Luz, S. C. T. da, Santos, K. P. B. dos, Gonçalvez Junior, E., &amp; Campos, P. V. C. (2017). Physiotherapy intervention during pre and post-prosthetic fitting of lower limb amputees: a systematic review. Acta Fisiátrica, 24(2), 98–104. <a href="https://doi.org/10.5935/0104-7795.20170019" class="uri">https://doi.org/10.5935/0104-7795.20170019</a></p>
-<p>World Health Organization. (2001). International Classification of Functioning, Disability and Health. WHO Library Cataloguing-in-Publication Data International. Geneva.</p>
-<p>Yiğiter, K., Şener, G., Erbahçeci, F., Bayar, K., Ülger, Ö. G., &amp; Akdoğan, S. (2002). A comparison of traditional prosthetic training versus proprioceptive neuromuscular facilitation resistive gait training with trans-femoral amputees. Prosthetics and Orthotics International, 26(3), 213–217. <a href="https://doi.org/10.1080/03093640208726650" class="uri">https://doi.org/10.1080/03093640208726650</a></p>
+<p>Baraúna, M., Duarte, F., Sanchez, H., Canto, R., Malusá, S.,
+Campelo-Silva, C., &amp; Ventura-Silva, R. (2006). Avaliação do
+equilíbrio estático em indivíduos amputados de membros inferiores
+através da biofotogrametria computadorizada. Revista Brasileira de
+Fisioterapia, 10(1), 83–90. <a
+href="https://doi.org/10.1590/s1413-35552006000100011"
+class="uri">https://doi.org/10.1590/s1413-35552006000100011</a></p>
+<p>Barbin, J., Seetha, V., Casillas, J. M., Paysant, J., &amp; Pérennou,
+D. (2016, September). The effects of mirror therapy on pain and motor
+control of phantom limb in amputees: A systematic review. Annals of
+Physical and Rehabilitation Medicine. Elsevier Masson SAS. <a
+href="https://doi.org/10.1016/j.rehab.2016.04.001"
+class="uri">https://doi.org/10.1016/j.rehab.2016.04.001</a></p>
+<p>Brasil. (2011). Decreto No 7.612, de 17 de Novembro de 2011. Institui
+o Plano Nacional dos Direitos da Pessoa com Deficiência - Plano Viver
+sem Limite. Retrieved August 14, 2020, from <a
+href="http://www.planalto.gov.br/ccivil_03/_Ato2011-2014/2011/Decreto/D7612.htm"
+class="uri">http://www.planalto.gov.br/ccivil_03/_Ato2011-2014/2011/Decreto/D7612.htm</a></p>
+<p>Brasil. (2017). Anuário Estatístico da Previdência Social 2017 (Vol.
+v.24). Brasília.</p>
+<p>Broomhead, P., Clark, K., Dawes, D., Hale, C., Lambert, A.,
+Quinlivan, D., … Withpetersen, J. (2012). Evidence Based Clinical
+Guidelines for the Physiotherapy Management of Adults with Lower Limb
+Prostheses (2nd Editio). London: Chartered Society of Physiotherapy.</p>
+<p>Bruins, R., Bruins, M., Geertzen, J. H. B., Groothoff, J. W., &amp;
+Schoppen, T. (2003). Vocational reintegration after a lower limb
+amputation: A qualitative study. Prosthetics and Orthotics
+International, 27(1), 4–10. <a
+href="https://doi.org/10.3109/03093640309167971"
+class="uri">https://doi.org/10.3109/03093640309167971</a></p>
+<p>Campos, P. V. C., Luz, S. C. T. da, Sarmento, T., Biasoli, V.,
+Santos, K. P. B. dos, &amp; Honório, G. J. da S. (2018). Barreiras e
+facilitadores para o retorno ao trabalho vivenciado por pessoas
+amputadas de membros inferiores, sob a ótica das diretrizes brasileiras.
+Cadernos Brasileiros de Terapia Ocupacional, 26(1), 111–118. <a
+href="https://doi.org/10.4322/2526-8910.ctoao0959"
+class="uri">https://doi.org/10.4322/2526-8910.ctoao0959</a></p>
+<p>Carvalho, J. A. (2003). Amputacões de membros inferiores : em busca
+da plena reabilitacão (2a). Barueri São Paulo SP Brasil: Manole.</p>
+<p>Chini, G. C. de O., &amp; Boemer, M. R. (2007). Amputation in the
+perception of those who experience it: a study under the
+phenomenological. Revista Latino-Americana de Enfermagem, 15(2),
+330–336. <a href="https://doi.org/10.1590/s0104-11692007000200021"
+class="uri">https://doi.org/10.1590/s0104-11692007000200021</a></p>
+<p>Christiansen, C. L., Miller, M. J., Murray, A. M., Stephenson, R. O.,
+Stevens-Lapsley, J. E., Hiatt, W. R., &amp; Schenkman, M. L. (2018).
+Behavior-Change Intervention Targeting Physical Function, Walking, and
+Disability After Dysvascular Amputation: A Randomized Controlled Pilot
+Trial. Archives of Physical Medicine and Rehabilitation, 99(11),
+2160–2167. <a href="https://doi.org/10.1016/j.apmr.2018.04.011"
+class="uri">https://doi.org/10.1016/j.apmr.2018.04.011</a></p>
+<p>Cutson, T. M., &amp; Bongiorni, D. R. (1996). Rehabilitation of the
+older lower limb amputee: A brief review. Journal of the American
+Geriatrics Society, 44(11), 1388–1393. <a
+href="https://doi.org/10.1111/j.1532-5415.1996.tb01415.x"
+class="uri">https://doi.org/10.1111/j.1532-5415.1996.tb01415.x</a></p>
+<p>Dall, D., de Brito, agnol, Cristine Isernhagen, F., &amp; Zafanelli
+Depieri, T. (2005). Saúde Unipar. Arquivos de Ciências da Saúde da
+UNIPAR (Vol. 9). <a
+href="https://doi.org/10.25110/ARQSAUDE.V9I3.2005.193"
+class="uri">https://doi.org/10.25110/ARQSAUDE.V9I3.2005.193</a></p>
+<p>Eijk, M. S. Van, Van Der Linde, H., Buijck, B. I., Zuidema, S. U.,
+&amp; Koopmans, R. T. (2012). Geriatric rehabilitation of lower limb
+amputees: A multicenter study. Disability and Rehabilitation, 34(2),
+145–150. <a href="https://doi.org/10.3109/09638288.2011.591888"
+class="uri">https://doi.org/10.3109/09638288.2011.591888</a></p>
+<p>Fernandes, A.C., Ramos, A.;Casalis M.;Herbert, S. (2007). AACD:
+Medicina e Reabilitação Princípios e Prática. (Artes Médicas LTDA, Ed.).
+São Paulo.</p>
+<p>Fisher, K., Hanspal, R. S., &amp; Marks, L. (2003). Return to work
+after lower limb amputation. International Journal of Rehabilitation
+Research, 26(1), 51–56. <a
+href="https://doi.org/10.1097/01.mrr.0000054806.81886.d7"
+class="uri">https://doi.org/10.1097/01.mrr.0000054806.81886.d7</a></p>
+<p>Fortington, L. V., Geertzen, J. H. B., Van Netten, J. J., Postema,
+K., Rommers, G. M., &amp; Dijkstra, P. U. (2013). Short and long term
+mortality rates after a lower limb amputation. European Journal of
+Vascular and Endovascular Surgery, 46(1), 124–131. <a
+href="https://doi.org/10.1016/j.ejvs.2013.03.024"
+class="uri">https://doi.org/10.1016/j.ejvs.2013.03.024</a></p>
+<p>Gailey, R., Gaunaurd, I., Raya, M., Kirk-Sanchez, N., Prieto-Sanchez,
+L. M., &amp; Roach, K. (2020). Effectiveness of an Evidence-Based
+Amputee Rehabilitation Program: A Pilot Randomized Controlled Trial.
+Physical Therapy, 100(5), 773–787. <a
+href="https://doi.org/10.1093/ptj/pzaa008"
+class="uri">https://doi.org/10.1093/ptj/pzaa008</a></p>
+<p>Geertzen, J., Van Der Linde, H., Rosenbrand, K., Conradi, M.,
+Deckers, J., Koning, J., … Voesten, H. (2015, October). Dutch
+evidence-based guidelines for amputation and prosthetics of the lower
+extremity: Amputation surgery and postoperative management. Part 1.
+Prosthetics and Orthotics International. SAGE Publications Inc. <a
+href="https://doi.org/10.1177/0309364614541460"
+class="uri">https://doi.org/10.1177/0309364614541460</a></p>
+<p>Hanashiro, R., Correia, V. D., &amp; Sugawara, A. T. (2018). Inclusão
+social no mercado de trabalho de pacientes amputados em processo de
+reabilitação. Acta Fisiátrica, 25(3). <a
+href="https://doi.org/10.11606/issn.2317-0190.v25i3a162671"
+class="uri">https://doi.org/10.11606/issn.2317-0190.v25i3a162671</a></p>
+<p>Hawkins, A. T., Henry, A. J., Crandell, D. M., &amp; Nguyen, L. L.
+(2014, April). A systematic review of functional and quality of life
+assessment after major lower extremity amputation. Annals of Vascular
+Surgery. Elsevier Inc. <a
+href="https://doi.org/10.1016/j.avsg.2013.07.011"
+class="uri">https://doi.org/10.1016/j.avsg.2013.07.011</a></p>
+<p>Highsmith, M. J., Andrews, C. R., Millman, C., Fuller, A., Kahle, J.
+T., Klenow, T. D., … Orriola, J. J. (2016). Gait Training Interventions
+for Lower Extremity Amputees: A Systematic Literature Review .
+Technology &amp; Innovation, 18(2), 99–113. <a
+href="https://doi.org/10.21300/18.2-3.2016.99"
+class="uri">https://doi.org/10.21300/18.2-3.2016.99</a></p>
+<p>Instituto Brasileiro de Geografia e Estatística - IBGE. (2010).
+Características Gerais da População, Religião e Pessoas Com Deficiência.
+Censo Demográfico 2010, 1–215. <a href="https://doi.org/ISSN"
+class="uri">https://doi.org/ISSN</a> 0101-4234</p>
+<p>Johnson, M. I., Mulvey, M. R., &amp; Bagnall, A. M. (2015, August).
+Transcutaneous electrical nerve stimulation (TENS) for phantom pain and
+stump pain following amputation in adults. Cochrane Database of
+Systematic Reviews. John Wiley and Sons Ltd. <a
+href="https://doi.org/10.1002/14651858.CD007264.pub3"
+class="uri">https://doi.org/10.1002/14651858.CD007264.pub3</a></p>
+<p>Lima, L. B. de, Correia, V. D., &amp; Salimene, A. C. de M. (2016).
+The social profile of the amputee patient in rehabilitation. Acta
+Fisiátrica, 23, 57–60. <a
+href="https://doi.org/10.5935/0104-7795.20160012"
+class="uri">https://doi.org/10.5935/0104-7795.20160012</a></p>
+<p>Ministério da Saúde Secretaria de Atenção à Saúde Departamento de
+Ações Programáticas Estratégicas, B. (2012). Diretrizes de atenção à
+pessoa amputada.</p>
+<p>Mitra, S., Palmer, M., Kim, H., Mont, D., &amp; Groce, N. (2017).
+Extra costs of living with a disability: A review and agenda for
+research. Disability and Health Journal, 10(4), 475–484. <a
+href="https://doi.org/10.1016/j.dhjo.2017.04.007"
+class="uri">https://doi.org/10.1016/j.dhjo.2017.04.007</a></p>
+<p>Nolan, L. (2012). A training programme to improve hip strength in
+persons with lower limb amputation. Journal of Rehabilitation Medicine,
+44(3), 241–248. <a href="https://doi.org/10.2340/16501977-0921"
+class="uri">https://doi.org/10.2340/16501977-0921</a></p>
+<p>O’Young, et al. (2000). Segredos em Medicina Física e Reabilitação.
+(A. S. Medicas, Ed.). Porto Alegre.</p>
+<p>Pastre, C., Salioni, J., Oliveira, B. A., Micheletto, M., &amp; Netto
+Júnior, J. (2005). Fisioterapia e amputação transtibial. Arq. Ciênc.
+Saúde, 12(2), 120–124.</p>
+<p>Pedrinelli, A. (2004). Tratamento do Paciente com Amputação. (Roca,
+Ed.) (1a ed). São Paulo.</p>
+<p>Raichle, K. A., Hanley, M. A., Molton, I., Kadel, N. J., Campbell,
+K., Phelps, E., … Smith, D. G. (2008). Prosthesis use in persons with
+lower- and upper-limb amputation. Journal of Rehabilitation Research and
+Development, 45(7), 961–972. <a
+href="https://doi.org/10.1682/jrrd.2007.09.0151"
+class="uri">https://doi.org/10.1682/jrrd.2007.09.0151</a></p>
+<p>Schoeller, S. D., Silva, D. M. G. V. da, Vargas, M. A. de O., Borges,
+A. M. F., Pires, D. E. P. de, &amp; Bonetti, A. (2013). Características
+das pessoas amputadas atendidas em um centro de reabilitação.
+Rev. Enferm. UFPE on Line, 445–451.</p>
+<p>Smith, S., Pursey, H., Jones, A., Baker, H., Springate, G., Randell,
+T., … Davies, L. (2016). Clinical guidelines for the pre and post
+operative physiotherapy management of adults with lower limb
+amputations.</p>
+<p>The Rehabilitation of Individuals with Lower Limb Amputation Work
+Group, &amp; UEAR, G. T. of. (2017). VA/DoD Clinical Practice Guidline
+for rehabilitation of individual with lower limb amputation.</p>
+<p>Tilak, M., Isaac, S. A., Fletcher, J., Vasanthan, L. T., Subbaiah, R.
+S., Babu, A., … Tharion, G. (2016). Mirror Therapy and Transcutaneous
+Electrical Nerve Stimulation for Management of Phantom Limb Pain in
+Amputees - A Single Blinded Randomized Controlled Trial. Physiotherapy
+Research International, 21(2), 109–115. <a
+href="https://doi.org/10.1002/pri.1626"
+class="uri">https://doi.org/10.1002/pri.1626</a></p>
+<p>Timms, J., &amp; Carus, C. (2015). Mirror therapy for the alleviation
+of phantom limb pain following amputation: A literature review.
+International Journal of Therapy and Rehabilitation, 22(3), 135–145. <a
+href="https://doi.org/10.12968/ijtr.2015.22.3.135"
+class="uri">https://doi.org/10.12968/ijtr.2015.22.3.135</a></p>
+<p>Trevelyan, E. G., Turner, W. A., Summerfield-Mann, L., &amp;
+Robinson, N. (2016). Acupuncture for the treatment of phantom limb
+syndrome in lower limb amputees: A randomised controlled feasibility
+study. Trials, 17(1). <a
+href="https://doi.org/10.1186/s13063-016-1639-z"
+class="uri">https://doi.org/10.1186/s13063-016-1639-z</a></p>
+<p>Unwin, N. (2000). Epidemiology of lower extremity amputation in
+centres in Europe, North America and East Asia. British Journal of
+Surgery, 87(3), 328–337. <a
+href="https://doi.org/10.1046/j.1365-2168.2000.01344.x"
+class="uri">https://doi.org/10.1046/j.1365-2168.2000.01344.x</a></p>
+<p>Vieira, R. I., Luz, S. C. T. da, Santos, K. P. B. dos, Gonçalvez
+Junior, E., &amp; Campos, P. V. C. (2017). Physiotherapy intervention
+during pre and post-prosthetic fitting of lower limb amputees: a
+systematic review. Acta Fisiátrica, 24(2), 98–104. <a
+href="https://doi.org/10.5935/0104-7795.20170019"
+class="uri">https://doi.org/10.5935/0104-7795.20170019</a></p>
+<p>World Health Organization. (2001). International Classification of
+Functioning, Disability and Health. WHO Library
+Cataloguing-in-Publication Data International. Geneva.</p>
+<p>Yiğiter, K., Şener, G., Erbahçeci, F., Bayar, K., Ülger, Ö. G., &amp;
+Akdoğan, S. (2002). A comparison of traditional prosthetic training
+versus proprioceptive neuromuscular facilitation resistive gait training
+with trans-femoral amputees. Prosthetics and Orthotics International,
+26(3), 213–217. <a href="https://doi.org/10.1080/03093640208726650"
+class="uri">https://doi.org/10.1080/03093640208726650</a></p>
 </div>
 
 <!--script for generating HORIZONTAL LINE-->

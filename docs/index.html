@@ -13,7 +13,7 @@
 
 <title>Reabilitação de Pessoas com Amputação</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
@@ -62,6 +62,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="style.css" type="text/css" />
 
 
@@ -86,6 +87,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -311,7 +315,7 @@ div.tocify {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -398,24 +402,67 @@ div.tocify {
 
 <p><br> <br> <br></p>
 <p align="right">
-<a href="https://twitter.com/share?url=rehab-tech.github.io/proteses/"><svg preserveAspectRatio="none" aria-hidden="true" role="img" viewBox="0 0 448 512" style="height:2em;width:2em;vertical-align:-0.125em;margin-left:0.2em;margin-right:0.2em;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8.2 5.7.2 8.5 0 86.7-66 186.6-186.6 186.6-37.2 0-71.7-10.8-100.7-29.4 5.3.6 10.4.8 15.8.8 30.7 0 58.9-10.4 81.4-28-28.8-.6-53-19.5-61.3-45.5 10.1 1.5 19.2 1.5 29.6-1.2-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.447 65.447 0 0 1-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5 24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2 28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z"/></svg></a>   <a href="http://www.facebook.com/sharer.php?u=rehab-tech.github.io/proteses/"><svg preserveAspectRatio="none" aria-hidden="true" role="img" viewBox="0 0 448 512" style="height:2em;width:2em;vertical-align:-0.125em;margin-left:0.2em;margin-right:0.2em;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"/></svg></a>   <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=rehab-tech.github.io/proteses/"><svg preserveAspectRatio="none" aria-hidden="true" role="img" viewBox="0 0 448 512" style="height:2em;width:2em;vertical-align:-0.125em;margin-left:0.2em;margin-right:0.2em;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a>
+<a
+href="https://twitter.com/share?url=rehab-tech.github.io/proteses/"></a>   <a
+href="http://www.facebook.com/sharer.php?u=rehab-tech.github.io/proteses/"></a>   <a
+href="http://www.linkedin.com/shareArticle?mini=true&amp;url=rehab-tech.github.io/proteses/"></a>
 </p>
 <!--script for generating HORIZONTAL LINE-->
 <hr style="height:2px;border-width:0;color:#2C3E50;background-color:#2C3E50">
 <div id="apresentação" class="section level2">
 <h2><strong>Apresentação</strong></h2>
 <p><br></p>
-<p>A amputação de membros inferiores pode resultar em sequelas físicas, psicológicas e sociais, constituindo um problema de saúde pública no Brasil e no mundo. O impacto econômico da deficiência chama a atenção: a previdência social gasta milhões de reais com aposentadorias por invalidez, sendo estimado que as amputações do membro inferior correspondam a aproximadamente 85% de todas as amputações de membros.</p>
+<p>A amputação de membros inferiores pode resultar em sequelas físicas,
+psicológicas e sociais, constituindo um problema de saúde pública no
+Brasil e no mundo. O impacto econômico da deficiência chama a atenção: a
+previdência social gasta milhões de reais com aposentadorias por
+invalidez, sendo estimado que as amputações do membro inferior
+correspondam a aproximadamente 85% de todas as amputações de
+membros.</p>
 <p><br></p>
-<p>Com as alterações biopsicossociais associadas à amputação de membros, a prótese tem um papel chave na reparação física e psicológica destes indivíduos, no entanto, reabilitar não significa adquirir uma prótese. Faz-se necessário um programa de reabilitação que permita ao paciente adaptar-se ao seu ambiente, favorecer sua recuperação funcional, psicológica e social, promover assim sua integração familiar e profissional.</p>
+<p>Com as alterações biopsicossociais associadas à amputação de membros,
+a prótese tem um papel chave na reparação física e psicológica destes
+indivíduos, no entanto, reabilitar não significa adquirir uma prótese.
+Faz-se necessário um programa de reabilitação que permita ao paciente
+adaptar-se ao seu ambiente, favorecer sua recuperação funcional,
+psicológica e social, promover assim sua integração familiar e
+profissional.</p>
 <p><br></p>
-<p>Frente a essa complexidade, entra em cena o fisioterapeuta, cabendo aqui destacar a necessidade do conhecimento técnico-científico atualizado e baseado em evidências para o manejo da pessoa com amputação. Este manual surge então pela necessidade de reunir e sistematizar propostas de reabilitação para essa população. Este manual foi criado como produto técnico da dissertação de mestrado de Caroline Lacerda Alves de Oliveira, do Programa de Pós-Graduação Stricto Sensu em Desenvolvimento Local do Centro Universitário Augusto Motta, UNISUAM/RJ, turma fora de sede, sob a orientação do Dr. Arthur de Sá Ferreira.</p>
+<p>Frente a essa complexidade, entra em cena o fisioterapeuta, cabendo
+aqui destacar a necessidade do conhecimento técnico-científico
+atualizado e baseado em evidências para o manejo da pessoa com
+amputação. Este manual surge então pela necessidade de reunir e
+sistematizar propostas de reabilitação para essa população. Este manual
+foi criado como produto técnico da dissertação de mestrado de Caroline
+Lacerda Alves de Oliveira, do Programa de Pós-Graduação Stricto Sensu em
+Desenvolvimento Local do Centro Universitário Augusto Motta, UNISUAM/RJ,
+turma fora de sede, sob a orientação do Dr. Arthur de Sá Ferreira.</p>
 <p><br></p>
-<p>Este manual instrutivo tem por objetivo nortear os fisioterapeutas nas etapas do processo de reabilitação de pessoas com amputação de membros inferiores. Olhar a pessoa com amputação em seu contexto biopsicossocial amplia os horizontes e contextualiza o indivíduo, a família, a comunidade para um processo de reabilitação mais efetivo. Aqui foram incluídas orientações para fisioterapeutas no processo de reabilitação das pessoas com amputação de membro inferior nas etapas de pré e pós-protetização.</p>
+<p>Este manual instrutivo tem por objetivo nortear os fisioterapeutas
+nas etapas do processo de reabilitação de pessoas com amputação de
+membros inferiores. Olhar a pessoa com amputação em seu contexto
+biopsicossocial amplia os horizontes e contextualiza o indivíduo, a
+família, a comunidade para um processo de reabilitação mais efetivo.
+Aqui foram incluídas orientações para fisioterapeutas no processo de
+reabilitação das pessoas com amputação de membro inferior nas etapas de
+pré e pós-protetização.</p>
 <p><br></p>
-<p>Este Manual Instrutivo foi construído com o intuito de fornecer informações a ajudar os fisioterapeutas na tomada de decisões para traçar um projeto terapêutico para as pessoas com amputação de membro inferior (PcAMI), levando a melhores resultados clínicos. Não pretende definir um padrão de atendimento e não deve ser interpretado como um, até porque variações na prática ocorrerão inevitavelmente quando se levam em consideração as necessidades individuais de cada pessoa, recursos disponíveis e a experiência clínica de cada profissional.</p>
+<p>Este Manual Instrutivo foi construído com o intuito de fornecer
+informações a ajudar os fisioterapeutas na tomada de decisões para
+traçar um projeto terapêutico para as pessoas com amputação de membro
+inferior (PcAMI), levando a melhores resultados clínicos. Não pretende
+definir um padrão de atendimento e não deve ser interpretado como um,
+até porque variações na prática ocorrerão inevitavelmente quando se
+levam em consideração as necessidades individuais de cada pessoa,
+recursos disponíveis e a experiência clínica de cada profissional.</p>
 <p><br></p>
-<p>O fisioterapeuta que utilizar este manual é responsável pela avaliação e adequação das técnicas propostas, modificando-as quando necessário em virtude das diferentes situações clínicas apresentadas pelos pacientes. O presente Manual foi desenvolvido após a realização de uma revisão sistematizada de obras publicadas por autores sobre esse assunto no mundo, tendo o papel de resumir, de examinar a natureza da atividade de pesquisa e de encontrar lacunas até o ano de 2020.</p>
+<p>O fisioterapeuta que utilizar este manual é responsável pela
+avaliação e adequação das técnicas propostas, modificando-as quando
+necessário em virtude das diferentes situações clínicas apresentadas
+pelos pacientes. O presente Manual foi desenvolvido após a realização de
+uma revisão sistematizada de obras publicadas por autores sobre esse
+assunto no mundo, tendo o papel de resumir, de examinar a natureza da
+atividade de pesquisa e de encontrar lacunas até o ano de 2020.</p>
 <p><br></p>
 </div>
 
