@@ -28,6 +28,12 @@ cat("](http://www.linkedin.com/shareArticle?mini=true&amp;url=rehab-tech.github.
 
 <br>
 
+**Oliveira CL, Ferreira AS. Reabilitação de pessoas com amputação de membros inferiores: uma revisão sistematizada. CM - RS. 2022;23(48):99-109.**
+<br>
+<a href="https://doi.org/10.15602/1983-9480/cm.v23n48p99-109 " target="_top">ABRIR Artigo</a>
+<br>
+<br>
+
 **Atuação Fisioterápica no Processo de Protetização de Pessoas com Amputação de Membros Inferiores - Manual Instrutivo**
 <br>
 <a href="Oliveira & Ferreira, 2021.pdf" target="_top">DOWNLOAD Manual</a>
