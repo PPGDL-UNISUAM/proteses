@@ -1,6 +1,14 @@
-name: "pcami-website"
-output_dir: "docs"
-include: ["Oliveira & Ferreira, 2021.pdf", "Quadro.pdf"]
+title: Reabilitação de Pessoas com Amputação
+date: '`r format(Sys.Date())`'
+author:
+  - name: Arthur de Sá Ferreira
+  - email: arthur_sf@icloud.com
+repository_url: https://github.com/FerreiraAS/proteses
+creative_commons: CC BY-NC-SA
+output_dir: docs
+include:
+  - "Oliveira & Ferreira, 2021.pdf"
+  - "Quadro.pdf"
 navbar:
   title: "Reabilitação de Pessoas com Amputação"
   left:
@@ -46,4 +54,7 @@ output:
       facebook: yes
       twitter: yes
       google: yes
-      all: ["facebook", "twitter", "google"]
+      all:
+        - facebook
+        - twitter
+        - google
