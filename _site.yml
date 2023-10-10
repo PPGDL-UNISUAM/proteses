@@ -3,7 +3,7 @@ date: '`r format(Sys.Date())`'
 author:
   - name: Arthur de Sá Ferreira
   - email: arthur_sf@icloud.com
-repository_url: https://github.com/PPGDL-UNISUAM/proteses
+repository_url: https://ppgdl-unisuam.github.io/proteses/
 creative_commons: CC BY-NC-SA
 output_dir: docs
 include:
