@@ -33,7 +33,13 @@ source("social-media-sharing.R", local = knitr::knit_global())
 
 <br>
 
-Amputação diz respeito ao processo pelo qual se separa do corpo, mediante algum procedimento cirúrgico ou algum trauma, um membro ou parte deste (CHINI; BOEMER, 2007). A amputação é um dos mais antigos procedimentos cirúrgicos, a qual representou durante muito tempo e, em certas ocasiões, ainda representa a possibilidade de maior expectativa de vida (DALL et al., 2005). A amputação deve ser encarada não como o fim do processo terapêutico, mas como uma nova etapa a ser entendida, assimilada e vencida (BARAÚNA et al., 2006). Muitas vezes referenciada como perda, mutilação ou incapacidade, a amputação remete aos indivíduos, na maioria dos casos, pensamentos negativistas, de invalidez e de exclusão (DALL et al., 2005).
+<br>
+
+<br>
+
+<br>
+
+**Amputação** diz respeito ao processo pelo qual se separa do corpo, mediante algum procedimento cirúrgico ou algum trauma, um membro ou parte deste (CHINI; BOEMER, 2007). A amputação é um dos mais antigos procedimentos cirúrgicos, a qual representou durante muito tempo e, em certas ocasiões, ainda representa a possibilidade de maior expectativa de vida (DALL et al., 2005). A amputação deve ser encarada não como o fim do processo terapêutico, mas como uma nova etapa a ser entendida, assimilada e vencida (BARAÚNA et al., 2006). Muitas vezes referenciada como perda, mutilação ou incapacidade, a amputação remete aos indivíduos, na maioria dos casos, pensamentos negativistas, de invalidez e de exclusão (DALL et al., 2005).
 
 <br>
 
